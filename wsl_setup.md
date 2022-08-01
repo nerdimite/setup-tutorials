@@ -11,7 +11,8 @@ To check your Windows version and build number, press **Windows logo key + R**, 
 ## Install WSL 2 and Ubuntu
 
 1. Open powershell as administrator
-![](images/powershell.png)
+
+    <img src="images/powershell.png" width="500"/>
 
 2. Run the following command:
     ```
@@ -22,13 +23,16 @@ To check your Windows version and build number, press **Windows logo key + R**, 
 2. Restart your computer
 
 3. Open the Microsoft Store and search for **Ubuntu**. This will show you a lot of versions, install the latest one like **Ubuntu 22.04 LTS**.
-![](images/store.png)
+    
+    <img src="images/store.png" width="500" />
 
 4. Once the process of installing Ubuntu with WSL is complete, open **Ubuntu** using the **Start menu**. For the first time it will take a bit time, but all future launches should be quick.
-![](images/start.png)
+
+    <img src="images/start.png" width="500" />
 
 5. Once it has finished its initial setup, you will need to create a username and password (this does not need to match your Windows user credentials)
-![](images/create-user.png)
+
+    <img src="images/create-user.png" width="500" />
 
 6. Finally, its best to update the packages in ubuntu by running
     ```bash
@@ -59,4 +63,5 @@ To check your Windows version and build number, press **Windows logo key + R**, 
 5. The setup will continue and once its installed, close the terminal window and open the Ubuntu terminal from the Start again.
 
 6. Now you should see `base` written beside your typing space in the terminal which indicates you are in the base environment.
-![](images/base.png)
+
+    <img src="images/base.png" width="500" />
